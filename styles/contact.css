@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
+}
+.container{
+    border-bottom: 1px solid #D4AF37;
+}
+.heading{
+   font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #D4AF37;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.title{
+   font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 2px; 
+}
+.gold-bar {
+    width: 60px;
+    height: 2px;
+    background-color: #D4AF37;
+    margin: 25px auto;
+}
+.sub-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 2px; 
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #D4AF37;
+}
+
+.contact-form textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #D4AF37;
+    color: #0B0B0B;
+    border: 1px solid #D4AF37;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: transparent;
+    color: #D4AF37;
+}
+.footer-ending{
+     font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #D4AF37;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.contact-home a{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 10px 24px;
+    color: #D4AF37;
+    text-decoration: none;
+    border: 1px solid #D4AF37;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+/* Mobile */
+@media  (max-width:600px) {
+    .heading,.title,.sub-heading,.footer-ending{
+        font-size: medium;
+        white-space: normal;
+    }
+}
+/* Tablet */
+ @media (min-width:601px) and (max-width:900px) {
+         .heading,.title,.sub-heading,.footer-ending{
+        font-size: large;
+        white-space: normal;
+    }
+    }
+    /* Laptop */
+     @media (min-width:901px) and (max-width:1200px) {
+         .heading,.title,.sub-heading,.footer-ending{
+        font-size: x-large;
+        white-space: normal;
+    }
+    }
+    /* Desktop and above */
+     @media (min-width:1201px)  {
+         .heading,.title,.sub-heading,.footer-ending{
+        font-size: xx-large;
+        white-space: normal;
+    }
+    }
