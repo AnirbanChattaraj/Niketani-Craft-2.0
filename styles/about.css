@@ -41,3 +41,14 @@
     transition: all 0.3s ease;
     text-decoration: none;
 }
+.signature {
+    text-align: right;
+    margin: 30px 20px;
+    color: #333333;
+}
+
+.signature-name {
+    font-family: 'Parisienne', cursive;
+    font-size: 2.2rem;
+    color: #C9A96E;
+}

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,4 +47,40 @@ nav a:hover {
   color: #333333;
   margin-left: 10px;
   margin-right: 10px;
+}
+/* separator */
+.separator {
+    height: 1px;
+    background-color: #C9B27C;
+    width: 50vw;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+/* Collection styling */
+.collection-heading{
+    font-family: "Ballet", cursive;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 20px 10px;
+}
+.collection-container ul a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #0A0A0A;
+    transition: color 0.3s ease;
+    margin-left: 25%;
+   
+}
+.collection-container ul a:hover{
+    color: #C9A96E;
+}
+.separator1 {
+    height: 1px;
+    background-color: #C9B27C;
+    width: 50vw;
+    margin-left: 25%;
+    margin-top: 20px;
 }
